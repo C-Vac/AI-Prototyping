@@ -18,8 +18,9 @@
             "**/CVS": true,
             "**/.DS_Store": true,
             "**/Thumbs.db": true,
-            "../Library/Portfolio_Source_Files/**": true,
+            "Library/**": true,
         },
-        "dotnet.defaultSolution": "Repository (All Project Files)/AI-Basic-Todo-List.sln"
+        "dotnet.defaultSolution": "Repository (All Project Files)/AI-Basic-Todo-List.sln",
+        "CodeGPT.apiKey": "CodeGPT Plus Beta"
     }
 }

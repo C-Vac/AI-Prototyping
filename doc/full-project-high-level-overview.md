@@ -1,6 +1,6 @@
 # Overview
 
-*The full project can be completed by following one of these high-level action plans*
+*The full project can be completed by following these high-level action plans*
 
 ## Version 1
 
