@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "name": "Repository (All Project Files)",
+            "path": "."
+        },
+        {
+            "path": "g:/Library"
+        },
+    ],
+    "settings": {
+        "CodeGPT.Autocomplete.enabled": false,
+        "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus"
+    }
+}
