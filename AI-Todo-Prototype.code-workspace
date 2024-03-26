@@ -10,6 +10,16 @@
     ],
     "settings": {
         "CodeGPT.Autocomplete.enabled": false,
-        "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus"
+        "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus",
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            "../Library/Portfolio_Source_Files/**": true,
+        },
+        "dotnet.defaultSolution": "Repository (All Project Files)/AI-Basic-Todo-List.sln"
     }
 }
