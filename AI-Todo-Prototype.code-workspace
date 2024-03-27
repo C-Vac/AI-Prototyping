@@ -21,6 +21,22 @@
             "Library/**": true,
         },
         "dotnet.defaultSolution": "Repository (All Project Files)/AI-Basic-Todo-List.sln",
-        "CodeGPT.apiKey": "CodeGPT Plus Beta"
+        "CodeGPT.apiKey": "CodeGPT Plus Beta",
+        "sqltools.connections": [
+            {
+                "mysqlOptions": {
+                    "authProtocol": "default",
+                    "enableSsl": "Disabled"
+                },
+                "previewLimit": 50,
+                "server": "localhost",
+                "port": 3306,
+                "driver": "MySQL",
+                "name": "local ai app DB",
+                "username": "goblindev",
+                "database": "ai_assistant_app",
+                "connectionTimeout": 3
+            }
+        ]
     }
 }

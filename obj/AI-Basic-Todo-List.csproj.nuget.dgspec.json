@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj": {}
+    "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj": {}
   },
   "projects": {
-    "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj": {
+    "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
+        "projectUniqueName": "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
         "projectName": "AI-Basic-Todo-List",
-        "projectPath": "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
+        "projectPath": "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
         "packagesPath": "C:\\Users\\cvacc\\.nuget\\packages\\",
-        "outputPath": "G:\\Projects\\AI-Basic-Todo-List\\obj\\",
+        "outputPath": "g:\\Projects\\AI-Basic-Todo-List\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cvacc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

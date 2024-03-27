@@ -47,10 +47,9 @@ public class StateMachine
 
         ARCHIVE_PROJECT, ARCHIVE_TASK,
     }
-    private string _state;
     public StateMachine()
     {
-        _state = "APP_START";
+        State _state = State.APP_START;
     }
     public bool TryDoAction(string action)
     {

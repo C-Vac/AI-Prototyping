@@ -18,7 +18,7 @@ public class InputController : ControllerBase
     [HttpPost]
     public IActionResult ReceiveInput([FromBody] string inputText)
     {
-        backend.StateMachine.TriggerState("ProcessInput", inputText);
+        backend.StateMachine.TriggerState(inputText);
         return Ok("Input received, processing...");
     }
 }
