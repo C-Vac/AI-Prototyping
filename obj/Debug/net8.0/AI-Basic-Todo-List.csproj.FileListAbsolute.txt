@@ -1,0 +1,5 @@
+G:\Projects\AI-Basic-Todo-List\obj\Debug\net8.0\AI-Basic-Todo-List.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\AI-Basic-Todo-List\obj\Debug\net8.0\AI-Basic-Todo-List.AssemblyInfoInputs.cache
+G:\Projects\AI-Basic-Todo-List\obj\Debug\net8.0\AI-Basic-Todo-List.AssemblyInfo.cs
+G:\Projects\AI-Basic-Todo-List\obj\Debug\net8.0\AI-Basic-Todo-List.csproj.CoreCompileInputs.cache
+G:\Projects\AI-Basic-Todo-List\obj\Debug\net8.0\AI-Basic-Todo-List.sourcelink.json

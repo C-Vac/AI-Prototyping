@@ -17,7 +17,7 @@ Backend: .NET Core 8 using C#
   - track time spent on tasks in schedule db table, write properties such as time since last 'x' activity
   - queue/dequeue tasks
   - facilitate data travel among components
-  - handle logging, timers, alarms, etc
+  - handle logging, timers, threading, etc
 - invoking scripts data processing begins here once a sanitized input arrives from the chatbot
 - If identified as a "note", it goes to the "user notes" database
 - If identified as a "task", it goes to the "agenda" database
