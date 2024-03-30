@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h+icvA9r01dsg8O5WBA0cNq6sN41rYIF+i/bmiXzuA/vsHSlo6hOllWVUewkaP6UQc266tTMVURdGwmvkI6Y7g==",
+  "dgSpecHash": "Rcfw2zc62Ubu/j8t63oVk1sS2t5q2hywY0o9GHC+/weuI0L/4T1TDItkgx3wPPKOxnCE3wZ8IWb8v96GumgZ2Q==",
   "success": true,
-  "projectFilePath": "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
+  "projectFilePath": "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cvacc\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\cvacc\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AI-Basic-Todo-List")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98014b756f83db7a4e53ade74ffde0910aec8902")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dfd7800f66a722dc81ef752da210b4cc0d33d8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AI-Basic-Todo-List")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AI-Basic-Todo-List")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

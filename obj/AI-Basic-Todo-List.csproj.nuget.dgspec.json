@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj": {}
+    "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj": {}
   },
   "projects": {
-    "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj": {
+    "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
+        "projectUniqueName": "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
         "projectName": "AI-Basic-Todo-List",
-        "projectPath": "g:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
+        "projectPath": "G:\\Projects\\AI-Basic-Todo-List\\AI-Basic-Todo-List.csproj",
         "packagesPath": "C:\\Users\\cvacc\\.nuget\\packages\\",
-        "outputPath": "g:\\Projects\\AI-Basic-Todo-List\\obj\\",
+        "outputPath": "G:\\Projects\\AI-Basic-Todo-List\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cvacc\\AppData\\Roaming\\NuGet\\NuGet.Config"
