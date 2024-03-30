@@ -7,13 +7,7 @@ namespace TheStreets.Prototype;
 /// This is a practice project for the Streets task manager prototype.
 /// </summary>
 /// <remarks>
-/// First, I will use my current knowledge of C# to build this project.
-/// 
-/// If I am not able to implement a feature, I will add a comment 
-/// outlining the desired functionality.
-/// 
-/// Then, I will augment the code with generative AI and implement new
-/// paradigms, patterns, and data structures.
+/// yuh
 /// </remarks>
 class Program {
 
@@ -60,51 +54,5 @@ public class StateMachine
     {
         // TODO: Implement
         return false;
-    }
-}
-
-public static class ProjectTracker
-{
-    enum Priority { Low, Medium, High }
-    public static List<Project> Projects;
-    public static List<GoblinTask> Agenda;
-    static void UpdateProject()
-    {
-
-    }
-    static void UpdateAgenda(string[]? args = null)
-    { 
-
-    }
-}
-
-public class Project
-{
-    public readonly int ProjectId;
-    public string Name { get; set; }
-    private List<GoblinTask> _tasks;
-    Project(int id, string name)
-    {
-        ProjectId = id;
-        Name = name;
-        _tasks = new List<GoblinTask>();
-    }
-    public void AddTask(GoblinTask task)
-    {
-        _tasks.Add(task);
-    }
-}
-public class GoblinTask
-{
-    public readonly int TaskId;
-    public string Name;
-    public readonly DateTime AddedTimestamp;
-
-    public GoblinTask(int id, string name, string priority = "Medium")
-    {
-        TaskId = id;
-        Name = name;
-        AddedTimestamp = DateTime.Now;
-
     }
 }
