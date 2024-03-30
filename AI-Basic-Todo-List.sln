@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI-Basic-Todo-List", "..\AI-Basic-Todo-List\AI-Basic-Todo-List.csproj", "{40C6CC15-D607-4A8B-A36C-2C95CD5B5E83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI-Basic-Todo-List", "BasicToDoList\AI-Basic-Todo-List.csproj", "{40C6CC15-D607-4A8B-A36C-2C95CD5B5E83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskManager", "SimpleTaskManager\SimpleTaskManager.csproj", "{3AD99ADF-9BC5-4930-B7D9-4C9ED5CA0269}"
 EndProject
