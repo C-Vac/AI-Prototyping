@@ -33,6 +33,7 @@ namespace TheStreets
             if (stateHandlers.TryGetValue(state, out Action handler))
             {
                 handler();
+                
             }
             else
             {

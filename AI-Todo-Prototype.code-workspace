@@ -5,8 +5,9 @@
             "path": "."
         },
         {
-            "path": "g:/Library"
-        },
+          "name": "Library",
+          "path": "../../Library"
+        }
     ],
     "settings": {
         "CodeGPT.Autocomplete.enabled": false,
