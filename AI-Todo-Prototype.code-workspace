@@ -24,6 +24,7 @@
         "dotnet.defaultSolution": "Repository (All Project Files)/AI-Basic-Todo-List.sln",
         "CodeGPT.apiKey": "CodeGPT Plus Beta",
         "sqltools.connections": [
+            
             {
                 "mysqlOptions": {
                     "authProtocol": "default",
