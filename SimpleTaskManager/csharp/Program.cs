@@ -37,10 +37,6 @@ class Program
             Console.WriteLine("Connecting to MySQL...");
             conn.Open();
 
-
-            // TEST: Let's create a new user for demonstration purposes
-            User newUser = new User { Username = "newgoblin", Email = "newgoblin@goblinmail.com" };
-            CreateUser(conn, newUser);
             // Perform database operations
 
         }
