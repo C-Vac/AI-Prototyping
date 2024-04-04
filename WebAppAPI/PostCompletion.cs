@@ -9,12 +9,12 @@ namespace TheStreets.Prototype;
 /// </summary>
 public class PostCompletionRequest
 {
-    private readonly static string CODEGPT_API_KEY = "";
-    private readonly static string CODEGPT_ORG_ID = "";
+
 
     static void Start(string[] args)
     {
         var client = new HttpClient();
+
         var request = new HttpRequestMessage();
         request.RequestUri = new Uri("api-beta.codegpt.co/api/v1/chat/completions");
         request.Method = HttpMethod.Post;
@@ -27,7 +27,7 @@ public class PostCompletionRequest
         var content = new StringContent(bodyString, Encoding.UTF8, "application/json");
         request.Content = content;
 
-        //TODO: fix this shit
+        //TODO: this doesn't work here
         // var response = await client.SendAsync(request);
         // var result = await response.Content.ReadAsStringAsync();
         // Console.WriteLine(result);

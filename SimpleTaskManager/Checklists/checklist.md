@@ -6,7 +6,7 @@
 
 Nice, you're diving into some computer science fundamentals with linked lists, a classic data structure. Here's how we can break down your goal of using linked lists in the development of your app:
 
-## Primary Objective Identification:
+## Primary Objective
 
 - [ ] Confirm that your main goal is to implement linked lists as a part of your app's functionality and that you aim to have the app contribute to its own development. 
 
@@ -39,6 +39,6 @@ Based on the information you provide, I will compile a checklist that might look
 - [ ] Integrate the linked list into your app's codebase where required.
 - [ ] Optimize the linked list implementation for performance, if necessary.
 
-Checklist Review:
+### Checklist Review:
 
 - [ ] Review the checklist with you to make sure that all tasks are clear and cover all the necessary steps for successfully implementing linked lists in your app.
