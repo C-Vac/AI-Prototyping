@@ -38,6 +38,7 @@ public class ChatController : ControllerBase
     {
         _codeGPTService = codeGPTService;
     }
+    
     // POST api/chat
     [HttpPost]
     public async Task<IActionResult> PostMessage([FromBody] ChatMessage message)
@@ -53,3 +54,8 @@ public record ChatMessage
     // Add additional properties as needed
 }
 
+public class ChatRequest
+{
+    public string DocumentContent { get; set; }
+    public string Prompt { get; set; }
+}

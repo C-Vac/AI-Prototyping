@@ -27,6 +27,5 @@ app.MapPost("/chat", async (ChatMessage chatMessage, CodeGPTService codeGPTServi
     return response; // This will return the response from CodeGPT
 });
 
-// This is a record type for simplicity, usually you would put this in a separate file
 
 app.Run();

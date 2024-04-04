@@ -1,12 +1,15 @@
 {
   "folders": [
     {
-      "name": "Repository (All Project Files)",
+      "name": "TheStreets Repositories",
       "path": "."
     },
     {
       "name": "Library",
       "path": "G:/Library"
+    },
+    {
+      "path": "../Forked_Repos/code-gpt-docs"
     }
   ],
   "settings": {
@@ -21,7 +24,7 @@
       "**/Thumbs.db": true,
       "Library/**": true
     },
-    "dotnet.defaultSolution": "Repository (All Project Files)/TheStreets.sln",
+    "dotnet.defaultSolution": "./TheStreets.sln",
     "CodeGPT.apiKey": "CodeGPT Plus Beta",
     "sqltools.connections": [
       {
