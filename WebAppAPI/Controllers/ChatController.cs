@@ -7,14 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace TheStreets.Prototype.Controllers;
 
 // Service to interact with CodeGPT API
-public class CodeGPTService
+public class CodeGPTService(HttpClient httpClient)
 {
-    private readonly HttpClient _httpClient;
-
-    public CodeGPTService(HttpClient httpClient)
-    {
-        _httpClient = httpClient;
-    }
+    private readonly HttpClient _httpClient = httpClient;
 
     public async Task<string> SendMessageToCodeGPTAsync(string message)
     {

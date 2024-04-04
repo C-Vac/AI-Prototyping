@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "name": "Repository (All Project Files)",
+      "path": "."
+    },
+    {
+      "name": "Library",
+      "path": "G:/Library"
+    }
+  ],
+  "settings": {
+    "CodeGPT.Autocomplete.enabled": false,
+    "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "Library/**": true
+    },
+    "dotnet.defaultSolution": "Repository (All Project Files)/TheStreets.sln",
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "sqltools.connections": [
+      {
+        "mysqlOptions": {
+          "authProtocol": "default",
+          "enableSsl": "Disabled"
+        },
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 3306,
+        "driver": "MySQL",
+        "name": "local ai app DB",
+        "username": "goblindev",
+        "database": "ai_assistant_app",
+        "connectionTimeout": 3
+      }
+    ]
+  }
+}
