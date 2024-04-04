@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using MySql.Data.MySqlClient;
 
 namespace TheStreets.Prototype;
 /// <summary>
@@ -9,50 +10,53 @@ namespace TheStreets.Prototype;
 /// <remarks>
 /// yuh
 /// </remarks>
-class Program {
+class Program
+{
 
     const string LOG_PATH = @"";
+
 
     public static void Main(string[] args)
     {
         var state = new StateMachine();
 
         Console.WriteLine("Program started.");
-        Console.WriteLine("");
+        Console.WriteLine("Initializing database client...");
+        InitDbClient();
     }
+
+    public static void InitDbClient()
+    {
+        Console.Write("Enter password: ");
+        string? dbPass = Console.ReadLine();
+        string connectionString = $"server=localhost;user=goblindev;database=ai_assistant_app;port=3306;password={dbPass}";
+        MySqlConnection conn = new MySqlConnection(connectionString);
+
+        try
+        {
+            Console.WriteLine("Connecting to MySQL...");
+            conn.Open();
+
+
+            // TEST: Let's create a new user for demonstration purposes
+            User newUser = new User { Username = "newgoblin", Email = "newgoblin@goblinmail.com" };
+            CreateUser(conn, newUser);
+            // Perform database operations
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }
+        finally
+        {
+            conn.Close();
+            Console.WriteLine("Done.");
+        }
+    }
+
+
+
+
 }
 
-public class StateMachine
-{
-    enum State
-    {
-        APP_START,
-        APP_QUIT,
-        VIEW_PRIMARY,
-        VIEW_PROJECT_DETAILS,
-        VIEW_TASK_DETAILS,
-        VIEW_SETTINGS,
-    }
-    public enum UxAction
-    {
-        NEW_PROJECT, NEW_TASK,
-        EDIT_PROJECT, EDIT_TASK,
-        DELETE_PROJECT, DELETE_TASK,
-
-        ARCHIVE_PROJECT, ARCHIVE_TASK,
-    }
-    public StateMachine()
-    {
-        State _state = State.APP_START;
-    }
-    public bool TryDoAction(string action)
-    {
-        // TODO: Implement
-        return false;
-    }
-    private bool TryChangeState(State newState)
-    {
-        // TODO: Implement
-        return false;
-    }
-}
